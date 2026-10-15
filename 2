@@ -1,0 +1,341 @@
+-- Deobfuscated by deobf (dynamic trace)
+-- source: input.txt
+-- NOTE: reconstructed from observed behaviour; branches that were not taken
+--       during the trace are missing and conditions are only noted in comments.
+-- run status: finished
+-- 290 statements recorded in 0.18s
+
+task.spawn(function()
+end)
+
+task.spawn(function()
+end)
+
+task.delay(935, function()
+	-- [envlog] cancelled before it ran
+end)
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+Frame.Position = UDim2.new(0, 0, 0, 0)
+Frame.Size = UDim2.new(0, 220, 0, 163)
+Frame.Parent = ScreenGui
+local Path2D = Instance.new("Path2D")
+Path2D.Parent = Frame
+Path2D:SetControlPoints({ Path2DControlPoint.new(UDim2.new(0.5, -2, 0.5, -7), UDim2.new(0, 0, 0, 0), UDim2.new(0, 0, 0, 0)), Path2DControlPoint.new(UDim2.new(0, 8, 0, 2), UDim2.new(-0.0625, -5, 0, 7), UDim2.new(0, -5, 0, 5)), Path2DControlPoint.new(UDim2.new(0.375, 3, 0.25, -5), UDim2.new(0, 6, -0.125, -5), UDim2.new(0, 0, 0, 0)), Path2DControlPoint.new(UDim2.new(0.4375, -8, 0, -9), UDim2.new(0, 6, 0, -2), UDim2.new(0, 0, 0, 0)) })
+Path2D:GetLength()
+Path2D:GetPositionOnCurve(0.40000000596046448)
+Path2D:GetPositionOnCurve(0.5)
+Path2D:GetPositionOnCurve(0.8571428656578064)
+Path2D:GetPositionOnCurve(0.80000001192092896)
+Path2D:GetTangentOnCurve(0.83333331346511841)
+Path2D:GetTangentOnCurve(0.72727274894714355)
+Path2D:GetPositionOnCurveArcLength(0.40000000596046448)
+Path2D:GetPositionOnCurveArcLength(0.25)
+Path2D:GetPositionOnCurveArcLength(0.26666668057441711)
+Path2D:GetTangentOnCurveArcLength(0.83333331346511841)
+Path2D:GetTangentOnCurveArcLength(0.57142859697341919)
+ScreenGui:Destroy()
+
+local connection = game.DescendantAdded:Connect(function(descendant)
+end)
+
+connection:Disconnect()
+
+local connection2 = workspace.DescendantAdded:Connect(function(descendant2)
+end)
+
+connection2:Disconnect()
+local Folder = Instance.new("Folder")
+
+local connection3 = Folder.DescendantAdded:Connect(function(descendant3)
+end)
+
+connection3:Disconnect()
+Folder:GetChildren()
+Folder:Destroy()
+local Folder2 = Instance.new("Folder", Folder)
+
+local connection4 = Folder2.DescendantAdded:Connect(function(descendant4)
+end)
+
+connection4:Disconnect()
+Folder2.Name = "141804404"
+Folder:WaitForChild("141804404")
+Folder:Destroy()
+Folder2:Destroy()
+local HttpService = game:GetService("HttpService")
+
+local connection5 = HttpService.DescendantAdded:Connect(function(descendant5)
+end)
+
+connection5:Disconnect()
+local RunService = game:GetService("RunService")
+
+local connection6 = RunService.DescendantAdded:Connect(function(descendant6)
+end)
+
+connection6:Disconnect()
+-- loadstring() of 2444 bytes: " --[[\n\t\t\t\t .@%(/*,.......      ...,,*/(#%&@@.\n\t\t\t (*   ,/(#%%&&@@@@&%((////(((##%###((/**,,.     ,//(&.\n\t\t   /* .%@@@@@@@@%,  .(&@@@&&&&&&@@@@@@&#(*,........*%@@@(.  ,#.\n\t\t */ .&@@@@@@@*  (%,   *(&&@@"
+local Players = game:GetService("Players")
+local TweenService = game:GetService("TweenService")
+local UserInputService = game:GetService("UserInputService")
+local CoreGui = game:GetService("CoreGui")
+local PlayerGui = Players.LocalPlayer:WaitForChild("PlayerGui")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+require(ReplicatedStorage.Notification)
+
+task.spawn(function(...)
+	local GiftWindow = PlayerGui:WaitForChild("GiftWindow", 30)
+	local Window = GiftWindow:WaitForChild("Window", 10)
+	local Content = Window:WaitForChild("Content", 10)
+	local Buttons = Content:WaitForChild("Buttons", 10)
+	local lastGiftWindow = Buttons:WaitForChild("lastGiftWindow", 10)
+	local nmBSJzfVMN = Instance.new("TextButton")
+	nmBSJzfVMN.Parent = lastGiftWindow
+	nmBSJzfVMN.Text = ""
+	nmBSJzfVMN.AutoButtonColor = false
+	nmBSJzfVMN.BackgroundTransparency = 1
+	nmBSJzfVMN.Position = UDim2.new(0, 0, 0, 0)
+	nmBSJzfVMN.Name = "nmBSJzfVMN"
+	nmBSJzfVMN.ZIndex = (lastGiftWindow.ZIndex + 20)
+	nmBSJzfVMN.BorderSizePixel = 0
+	nmBSJzfVMN.Size = UDim2.new(1, 0, 1, 0)
+
+	nmBSJzfVMN.MouseButton1Click:Connect(function()
+		PlayerGui.GiftWindow.Window.Footer.Context.Text:match("%[(.-)%]")
+		task.wait(0.5)
+		local hui = gethui()
+		local aArofpHXpatu = Instance.new("ScreenGui")
+		aArofpHXpatu.Name = "aArofpHXpatu"
+		aArofpHXpatu.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+		aArofpHXpatu.ResetOnSpawn = false
+		aArofpHXpatu.IgnoreGuiInset = true
+		aArofpHXpatu.DisplayOrder = 999
+
+		task.spawn(function()
+			task.wait()
+			aArofpHXpatu.Parent = hui
+		end)
+
+		aArofpHXpatu.AncestryChanged:Connect(function(child, parent)
+		end)
+
+		local MkRHhAUetD = Instance.new("Frame")
+		MkRHhAUetD.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		MkRHhAUetD.BackgroundTransparency = 1
+		MkRHhAUetD.Name = "MkRHhAUetD"
+		MkRHhAUetD.Parent = aArofpHXpatu
+		MkRHhAUetD.ZIndex = 10
+		MkRHhAUetD.BorderSizePixel = 0
+		MkRHhAUetD.Size = UDim2.new(1, 0, 1, 0)
+		local yexxRqZqnr = Instance.new("Frame")
+		yexxRqZqnr.Parent = aArofpHXpatu
+		yexxRqZqnr.AnchorPoint = Vector2.new(0.5, 0.5)
+		yexxRqZqnr.Name = "yexxRqZqnr"
+		yexxRqZqnr.BackgroundTransparency = 1
+		yexxRqZqnr.Position = UDim2.new(0.5, 0, 0.54, 0)
+		yexxRqZqnr.BackgroundColor3 = Color3.fromRGB(25, 26, 31)
+		yexxRqZqnr.ZIndex = 11
+		yexxRqZqnr.BorderSizePixel = 0
+		yexxRqZqnr.Size = UDim2.new(0.3, 0, 0, 184)
+		local UICorner = Instance.new("UICorner")
+		UICorner.Parent = yexxRqZqnr
+		UICorner.CornerRadius = UDim.new(0, 10)
+		local tween = TweenService:Create(MkRHhAUetD, TweenInfo.new(0.28, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), { BackgroundTransparency = 0.45 })
+		tween:Play()
+		local tween2 = TweenService:Create(yexxRqZqnr, TweenInfo.new(0.28, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), { BackgroundTransparency = 0, Position = UDim2.new(0.5, 0, 0.5, 0) })
+		tween2:Play()
+		local LIETGbDjSb = Instance.new("TextLabel")
+		LIETGbDjSb.TextColor3 = Color3.fromRGB(255, 255, 255)
+		LIETGbDjSb.Parent = yexxRqZqnr
+		LIETGbDjSb.Text = "Buy item"
+		LIETGbDjSb.Name = "LIETGbDjSb"
+		LIETGbDjSb.ZIndex = 12
+		LIETGbDjSb.Font = Enum.Font.BuilderSansMedium
+		LIETGbDjSb.BackgroundTransparency = 1
+		LIETGbDjSb.Position = UDim2.new(0, 14, 0, 0)
+		LIETGbDjSb.TextXAlignment = Enum.TextXAlignment.Left
+		LIETGbDjSb.TextYAlignment = Enum.TextYAlignment.Center
+		LIETGbDjSb.TextSize = 20
+		LIETGbDjSb.Size = UDim2.new(1, -120, 0, 52)
+		local wGePoaJVRA = Instance.new("ImageButton")
+		wGePoaJVRA.Image = ""
+		wGePoaJVRA.BackgroundTransparency = 1
+		wGePoaJVRA.Position = UDim2.new(1, -44, 0, 0)
+		wGePoaJVRA.Parent = yexxRqZqnr
+		wGePoaJVRA.ZIndex = 12
+		wGePoaJVRA.Name = "wGePoaJVRA"
+		wGePoaJVRA.Size = UDim2.new(0, 44, 0, 52)
+		local gXtxROAWcy = Instance.new("ImageLabel")
+		gXtxROAWcy.ImageColor3 = Color3.fromRGB(210, 210, 210)
+		gXtxROAWcy.ScaleType = Enum.ScaleType.Fit
+		gXtxROAWcy.Parent = wGePoaJVRA
+		gXtxROAWcy.AnchorPoint = Vector2.new(0.5, 0.5)
+		gXtxROAWcy.Image = "rbxassetid://6031094678"
+		gXtxROAWcy.BackgroundTransparency = 1
+		gXtxROAWcy.Position = UDim2.new(0.5, 0, 0.5, 0)
+		gXtxROAWcy.ZIndex = 13
+		gXtxROAWcy.Name = "gXtxROAWcy"
+		gXtxROAWcy.Size = UDim2.new(0, 22, 0, 22)
+		local AAkYNbNKRb = Instance.new("Frame")
+		AAkYNbNKRb.BackgroundTransparency = 1
+		AAkYNbNKRb.Position = UDim2.new(1, -104, 0, 0)
+		AAkYNbNKRb.Parent = yexxRqZqnr
+		AAkYNbNKRb.ZIndex = 12
+		AAkYNbNKRb.Name = "AAkYNbNKRb"
+		AAkYNbNKRb.Size = UDim2.new(0, 90, 0, 52)
+		local nFBblfgwpg = Instance.new("TextLabel")
+		nFBblfgwpg.TextColor3 = Color3.fromRGB(210, 210, 210)
+		nFBblfgwpg.Parent = AAkYNbNKRb
+		nFBblfgwpg.Text = ""
+		nFBblfgwpg.Name = "nFBblfgwpg"
+		nFBblfgwpg.ZIndex = 12
+		nFBblfgwpg.Font = Enum.Font.BuilderSansMedium
+		nFBblfgwpg.BackgroundTransparency = 1
+		nFBblfgwpg.Position = UDim2.new(0, 0, 0.5, -10)
+		nFBblfgwpg.TextXAlignment = Enum.TextXAlignment.Center
+		nFBblfgwpg.TextYAlignment = Enum.TextYAlignment.Center
+		nFBblfgwpg.TextSize = 17
+		nFBblfgwpg.Size = UDim2.new(0, 20, 0, 20)
+		local HejwVMymsT = Instance.new("TextLabel")
+		HejwVMymsT.TextColor3 = Color3.fromRGB(210, 210, 210)
+		HejwVMymsT.Parent = AAkYNbNKRb
+		HejwVMymsT.Text = "184,736"
+		HejwVMymsT.Name = "HejwVMymsT"
+		HejwVMymsT.ZIndex = 12
+		HejwVMymsT.Font = Enum.Font.BuilderSansMedium
+		HejwVMymsT.BackgroundTransparency = 1
+		HejwVMymsT.Position = UDim2.new(0, 22, 0, 0)
+		HejwVMymsT.TextXAlignment = Enum.TextXAlignment.Left
+		HejwVMymsT.TextYAlignment = Enum.TextYAlignment.Center
+		HejwVMymsT.TextSize = 15
+		HejwVMymsT.Size = UDim2.new(0, 68, 1, 0)
+		local KMnGRYLPmD = Instance.new("Frame")
+		KMnGRYLPmD.BackgroundTransparency = 1
+		KMnGRYLPmD.Position = UDim2.new(0, 16, 0, 62)
+		KMnGRYLPmD.Parent = yexxRqZqnr
+		KMnGRYLPmD.ZIndex = 12
+		KMnGRYLPmD.Name = "KMnGRYLPmD"
+		KMnGRYLPmD.Size = UDim2.new(1, -32, 0, 64)
+		local JYyFlWbEWA = Instance.new("ImageLabel")
+		JYyFlWbEWA.ScaleType = Enum.ScaleType.Fit
+		JYyFlWbEWA.Parent = KMnGRYLPmD
+		JYyFlWbEWA.AnchorPoint = Vector2.new(0, 0.5)
+		JYyFlWbEWA.Image = "rbxassetid://127910198525735"
+		JYyFlWbEWA.BackgroundTransparency = 1
+		JYyFlWbEWA.Position = UDim2.new(0, 0, 0.5, -6)
+		JYyFlWbEWA.Name = "JYyFlWbEWA"
+		JYyFlWbEWA.ZIndex = 12
+		JYyFlWbEWA.BorderSizePixel = 0
+		JYyFlWbEWA.Size = UDim2.new(0, 46, 0, 46)
+		local VAMjJHCSfB = Instance.new("TextLabel")
+		VAMjJHCSfB.TextColor3 = Color3.fromRGB(255, 255, 255)
+		VAMjJHCSfB.Parent = KMnGRYLPmD
+		VAMjJHCSfB.Text = "Dragon"
+		VAMjJHCSfB.Name = "VAMjJHCSfB"
+		VAMjJHCSfB.ZIndex = 12
+		VAMjJHCSfB.Font = Enum.Font.BuilderSansMedium
+		VAMjJHCSfB.BackgroundTransparency = 1
+		VAMjJHCSfB.Position = UDim2.new(0, 58, 0, 5)
+		VAMjJHCSfB.TextXAlignment = Enum.TextXAlignment.Left
+		VAMjJHCSfB.TextYAlignment = Enum.TextYAlignment.Center
+		VAMjJHCSfB.TextSize = 14
+		VAMjJHCSfB.Size = UDim2.new(1, -60, 0, 20)
+		local aQNcnNKAtp = Instance.new("Frame")
+		aQNcnNKAtp.BackgroundTransparency = 1
+		aQNcnNKAtp.Position = UDim2.new(0, 54, 0, 29)
+		aQNcnNKAtp.Parent = KMnGRYLPmD
+		aQNcnNKAtp.ZIndex = 12
+		aQNcnNKAtp.Name = "aQNcnNKAtp"
+		aQNcnNKAtp.Size = UDim2.new(0, 120, 0, 18)
+		local FmOxMGiMwv = Instance.new("TextLabel")
+		FmOxMGiMwv.TextColor3 = Color3.fromRGB(255, 255, 255)
+		FmOxMGiMwv.Parent = aQNcnNKAtp
+		FmOxMGiMwv.Text = ""
+		FmOxMGiMwv.Name = "FmOxMGiMwv"
+		FmOxMGiMwv.ZIndex = 13
+		FmOxMGiMwv.Font = Enum.Font.BuilderSansMedium
+		FmOxMGiMwv.BackgroundTransparency = 1
+		FmOxMGiMwv.Position = UDim2.new(0, 0, 0, 0)
+		FmOxMGiMwv.TextXAlignment = Enum.TextXAlignment.Center
+		FmOxMGiMwv.TextYAlignment = Enum.TextYAlignment.Center
+		FmOxMGiMwv.TextSize = 14
+		FmOxMGiMwv.Size = UDim2.new(0, 18, 0, 18)
+		local CEmaqvayqE = Instance.new("TextLabel")
+		CEmaqvayqE.TextColor3 = Color3.fromRGB(255, 255, 255)
+		CEmaqvayqE.Parent = aQNcnNKAtp
+		CEmaqvayqE.Text = "5,000"
+		CEmaqvayqE.Name = "CEmaqvayqE"
+		CEmaqvayqE.ZIndex = 13
+		CEmaqvayqE.Font = Enum.Font.BuilderSansMedium
+		CEmaqvayqE.BackgroundTransparency = 1
+		CEmaqvayqE.Position = UDim2.new(0, 20, 0, 0)
+		CEmaqvayqE.TextXAlignment = Enum.TextXAlignment.Left
+		CEmaqvayqE.TextYAlignment = Enum.TextYAlignment.Center
+		CEmaqvayqE.TextSize = 14
+		CEmaqvayqE.Size = UDim2.new(0, 100, 1, 0)
+		local SyAMjboGnN = Instance.new("TextButton")
+		SyAMjboGnN.ClipsDescendants = true
+		SyAMjboGnN.Parent = yexxRqZqnr
+		SyAMjboGnN.Text = ""
+		SyAMjboGnN.Name = "SyAMjboGnN"
+		SyAMjboGnN.Position = UDim2.new(0, 14, 0, 140)
+		SyAMjboGnN.BackgroundColor3 = Color3.fromRGB(38, 61, 143)
+		SyAMjboGnN.ZIndex = 12
+		SyAMjboGnN.BorderSizePixel = 0
+		SyAMjboGnN.Size = UDim2.new(1, -28, 0, 34)
+		local UICorner2 = Instance.new("UICorner")
+		UICorner2.Parent = SyAMjboGnN
+		UICorner2.CornerRadius = UDim.new(0, 8)
+		local SkuSPoFOvc = Instance.new("Frame")
+		SkuSPoFOvc.Name = "SkuSPoFOvc"
+		SkuSPoFOvc.BackgroundColor3 = Color3.fromRGB(51, 95, 255)
+		SkuSPoFOvc.Parent = SyAMjboGnN
+		SkuSPoFOvc.ZIndex = 13
+		SkuSPoFOvc.BorderSizePixel = 0
+		SkuSPoFOvc.Size = UDim2.new(0, 0, 1, 0)
+		local UICorner3 = Instance.new("UICorner")
+		UICorner3.Parent = SkuSPoFOvc
+		UICorner3.CornerRadius = UDim.new(0, 8)
+		local VRMzdSZsTJ = Instance.new("TextLabel")
+		VRMzdSZsTJ.TextColor3 = Color3.fromRGB(255, 255, 255)
+		VRMzdSZsTJ.Parent = SyAMjboGnN
+		VRMzdSZsTJ.Text = "Buy"
+		VRMzdSZsTJ.Font = Enum.Font.BuilderSansMedium
+		VRMzdSZsTJ.BackgroundTransparency = 1
+		VRMzdSZsTJ.Name = "VRMzdSZsTJ"
+		VRMzdSZsTJ.ZIndex = 14
+		VRMzdSZsTJ.TextSize = 15
+		VRMzdSZsTJ.Size = UDim2.new(1, 0, 1, 0)
+		SyAMjboGnN.Active = false
+		SyAMjboGnN.AutoButtonColor = false
+		VRMzdSZsTJ.TextTransparency = 0.5
+		SkuSPoFOvc.Size = UDim2.new(1, 0, 1, 0)
+
+		task.delay(0.08, function()
+		end)
+
+		SyAMjboGnN.MouseButton1Click:Connect(function()
+		end)
+
+		wGePoaJVRA.MouseButton1Click:Connect(function()
+			local tween3 = TweenService:Create(yexxRqZqnr, TweenInfo.new(0.18, Enum.EasingStyle.Quint, Enum.EasingDirection.In), { BackgroundTransparency = 1, Position = UDim2.new(0.5, 0, 0.52, 0) })
+			local tween4 = TweenService:Create(MkRHhAUetD, TweenInfo.new(0.18, Enum.EasingStyle.Linear), { BackgroundTransparency = 1 })
+			tween4:Play()
+			tween3:Play()
+
+			tween3.Completed:Connect(function(playbackState)
+				aArofpHXpatu:Destroy()
+			end)
+		end)
+	end)
+
+	print("[FakeGift] Hooked lastGiftWindow button!")
+	local Notifications = PlayerGui:FindFirstChild("Notifications")
+	Notifications.DisplayOrder = 999
+end)
+
+local module = require(game.ReplicatedStorage.Notification)
+local result = module.new("<Color=Green>Successfully injected script\n try giving someone the Permanent Dragon!<Color=/>", 6)
+result:Display()
